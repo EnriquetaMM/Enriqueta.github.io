@@ -1,0 +1,19 @@
+{
+    "php.validate.executablePath": "c:/xampp/php/php.exe",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "XAMPP",
+            "database": "DPW1_U2_ENMM_Boutique",
+            "username": "root"
+        }
+    ]
+    
+
+}

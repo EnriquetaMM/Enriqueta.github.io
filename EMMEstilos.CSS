@@ -1,0 +1,127 @@
+body{
+    background-color: darkturquoise;
+    font-family: 'Lucida Brigth';
+    text-decoration-color: darkgrey;
+    
+       
+}
+h1{
+    font-family: 'Lucida Brigth', 'bold';
+    text-align: center;
+}
+
+h3{
+    text-align:right;
+    margin:50px;
+}
+h2, img {
+    display:block;
+}
+h2{
+    font-family: Lucida;
+    text-align: justify;
+    margin:50px;
+}
+img{
+    width: 30%;
+    margin: auto;
+}
+p{
+    font-family: 'Lucida Fax';
+    text-align: justify;
+    margin:50px;
+}
+
+a, footer, button{
+    font-family: 'Lucida Fax';
+    text-align: left;
+    margin:50px;
+}
+form, input {
+    font-family: 'Lucida Fax';
+    text-align: center;
+    margin:20px;
+}
+.form main{
+    min-height: 100vh;
+    padding:60px 15px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+}
+.form-content .box {
+    border-color:seagreen;
+    border:darkslategrey solid 1px;
+    padding: 40px 60px;
+    border-radius: 40px;
+    position: relative;
+    align-content: center;
+    
+}
+.form-content h2{
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    color:aliceblue;
+    font-weight: 500px;
+    position: center;
+}
+.form-content form{
+    margin:25px 0 20px;   
+}
+.form-content .input-box{
+    margin: 25px;
+}
+.form-content .input-control{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid ;
+    color: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: 20px;
+
+}
+.form-content .input-control:focus{
+    outline: none;
+
+}
+.form-content .btn{
+    height: 45px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: rgb(139, 20, 20);
+    border: none;
+    color:aliceblue;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+
+}
+.form-content .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    z-index: -1;
+}
+
